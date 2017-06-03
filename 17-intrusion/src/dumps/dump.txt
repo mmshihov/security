@@ -1,0 +1,69 @@
+состояние 
+
+22FF08  
+22FF0C  
+22FF10  
+22FF14  
+22FF18  
+22FF1C  
+22FF20  
+22FF24  
+22FF28  0022FF68  [ebp]
+22FF2C  004010B6  &callPt(main)
+22FF30  00000004  argc
+22FF34  003F17D8  &argv
+
+22FF08  
+22FF0C  
+22FF10  
+22FF14  
+22FF18  
+22FF1C  
+22FF20  
+22FF24  004A25E1  &argv[1],&input
+22FF28  0022FF68  [ebp]
+22FF2C  004010B6  &callPt(main)
+22FF30  00000004  argc
+22FF34  003F17D8  &argv
+
+22FF04  xxxxxxxx  [esp]
+22FF08  xxxxxxxx
+22FF0C  xxxxxxxx  buf[0]..buf[3]
+22FF10  xxxxxxxx  buf[4]..buf[7]
+22FF14  xxxxxxxx  buf[8]..buf[B]
+22FF18  xxxxxxxx  buf[C]..buf[F]
+22FF1C  0022FF28  [ebp]
+22FF20  00401338  &callPt(badStrcpy)
+22FF24  004A25E1  &argv[1],&input
+22FF28  0022FF68  [ebp]
+22FF2C  004010B6  &callPt(main)
+22FF30  00000004  argc
+22FF34  003F17D8  &argv
+
+22FF04  004A25E1  [esp]
+22FF08  0022FF0C
+22FF0C  xxxxxxxx  buf[0]..buf[3]
+22FF10  xxxxxxxx  buf[4]..buf[7]
+22FF14  xxxxxxxx  buf[8]..buf[B]
+22FF18  xxxxxxxx  buf[C]..buf[F]
+22FF1C  0022FF28  [ebp]
+22FF20  00401338  &callPt(badStrcpy)
+22FF24  004A25E1  &argv[1],&input
+22FF28  0022FF68  [ebp]
+22FF2C  004010B6  &callPt(main)
+22FF30  00000004  argc
+22FF34  003F17D8  &argv
+
+22FF04  004A25E1  [esp]
+22FF08  0022FF0C
+22FF0C  h e l l   buf[0]..buf[3]
+22FF10  o , _ W   buf[4]..buf[7]
+22FF14  o r l d   buf[8]..buf[B]
+22FF18  ! ! ! 00  buf[C]..buf[F]
+22FF1C  0022FF28  [ebp]
+22FF20  00401338  &callPt(badStrcpy)
+22FF24  004A25E1  &argv[1],&input
+22FF28  0022FF68  [ebp]
+22FF2C  004010B6  &callPt(main)
+22FF30  00000004  argc
+22FF34  003F17D8  &argv
